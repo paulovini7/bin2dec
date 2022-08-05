@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Area de definição de fontes utilizadas*/
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/*area para definir o tipo de display do corpo geral */
+body {
+    background-color: #FBAB7E;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+/*definição e centralização do box principal*/
+.container {
+    display: flex;
+    flex: 1;
+    background: #fff;
+    box-shadow: 8px 8px 50px #000;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    padding: 50px;
+    width: 50%;
+    margin-top: 8% ;
+
+}
+/*estilização do paragrafo*/
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16pt;
+    display: block;
+    margin: 1em
+
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+h3{
+    padding-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+input[type="text"]{
+    outline: none;
+    background-color: #aaa;
+    border: none;
+    padding: 15px;
+    width: 100%;
+}
+/*busca de elemento por dom*/
+input[type="text"]::placeholder{
+    color: rgba(0,0,0, 0.452);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+ input[type="button"]{
+    font-family: 'Ubuntu', sans-serif;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    background-color: #5E5C83;
+    border: none;
+    font-size: 16px;
+    border-radius:5px;
+ }
+ /*estilização do footer*/
+ .source {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+    .source a{
+         text-decoration: none;
+ }
+        .source p{
+            font-size: 15pt;
+            font-family: 'Ubuntu', sans-serif;
+            background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+            width: 100%;
+            padding: 6px;
+            border-radius: 4px;
+            margin-left: auto;
+            margin-right: auto;
+ }
